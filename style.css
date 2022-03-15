@@ -5,7 +5,19 @@
     height: 100vh;
     background-image: url('sun.jpg');
     background-size: cover;
+    position: relative;
+    animation-duration: 2;
+    animation-name: temsta;
 }
+@keyframes temsta {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 .saule{
     width: 100px;
     height:  100px;
@@ -28,5 +40,22 @@
         opacity: 0;
         top: 40%;
         left: 80%;
+    }
+}
+.laivas {
+    top: 40%;
+    left: 10%;
+    position: relative;
+    animation-duration: 8s;
+    animation-name: slideoff;
+}
+@keyframes slideoff {
+    from {
+        top: 40%;
+        left: 10%;
+    }
+    to {
+        top: 10%;
+        left: 120%;
     }
 }
