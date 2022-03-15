@@ -7,7 +7,6 @@
     background-size: cover;
     animation-duration: 5;
     animation-name: temsta;
-    filter: brightness(100%)
 }
 @keyframes temsta {
     from {
