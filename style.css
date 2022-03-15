@@ -5,16 +5,16 @@
     height: 100vh;
     background-image: url('sun.jpg');
     background-size: cover;
-    position: relative;
-    animation-duration: 2;
+    animation-duration: 5;
     animation-name: temsta;
+    filter: brightness(100%)
 }
 @keyframes temsta {
     from {
-        opacity: 1;
+        filter: brightness(100%)
     }
     to {
-        opacity: 0;
+        filter: brightness(50%)
     }
 }
 
